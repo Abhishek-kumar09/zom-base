@@ -43,7 +43,7 @@ export default function FoodCard() {
           image="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/images/2_Pub_Food_Questions_574x384.jpg?$Publication_Two_Column_Desktop$"
           title="Mc Donald's"
         />
-        <div className={classes.flexWrapper} style={{ margin: '-24px 0px 24px' }}>
+        <div className={classes.flexWrapper} style={{ margin: '-24px 0px 0px' }}>
           <Box className={classes.leftText}>
             <Typography variant="caption" className={classes.dis}>
               Upto 50% OFF
