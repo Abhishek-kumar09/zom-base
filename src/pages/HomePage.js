@@ -17,22 +17,20 @@ function HomePage(props) {
       <AddressAppBar />
       <Container>
         <h1>Ho Halla</h1>
-        <h1>Ho Halla</h1>
         <Switch>
           <Route path="/" exact>
             <PageOne />
           </Route>
-          <Route path="/recents">
+          <Route exact path="/recents">
             <PageOne />
           </Route>
-          <Route path="/favorites">
+          <Route exact path="/favorites">
             <PageTwo />
           </Route>
-          <Route path="/nearby">
+          <Route exact path="/nearby">
             <PageThree />
           </Route>
         </Switch>
-        <h1>Ho Halla</h1>
         <h1>Ho Halla</h1>
       </Container>
       <BottomNav />
