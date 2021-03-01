@@ -1,14 +1,12 @@
-import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 import AddressAppBar from "../components/AddressAppBar";
 import BottomNav from "../components/BottomNav";
-import { Route, Switch } from "react-router-dom";
 import PageOne from "../components/PageOne";
-import PageTwo from "../components/PageTwo";
 import PageThree from "../components/PageThree";
-import { withRouter } from "react-router-dom";
+import PageTwo from "../components/PageTwo";
 
 function HomePage(props) {
   return (

@@ -1,4 +1,4 @@
-import { Box, Divider, Icon } from '@material-ui/core';
+import { Box, Divider } from '@material-ui/core';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -12,7 +12,8 @@ const useStyles = makeStyles({
   root: {
     textAlign: 'left',
     maxWidth: 345,
-    marginBottom: '32px'
+    marginBottom: '32px',
+    borderRadius: '14px'
   },
   media: {
     height: 140,

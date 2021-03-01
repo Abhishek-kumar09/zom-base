@@ -1,4 +1,4 @@
-import { Avatar, Box, Card, Typography } from '@material-ui/core'
+import { Avatar, Box, Typography } from '@material-ui/core'
 import React from 'react'
 
 export default function FoodAvatar() {
